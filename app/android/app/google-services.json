@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "462435448337",
+    "project_id": "parkinsons-detection",
+    "storage_bucket": "parkinsons-detection.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462435448337:android:2f5610f0cd8ecafd6263b0",
+        "android_client_info": {
+          "package_name": "com.example.parkinscan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462435448337-nnqas5t35icldkc0lkvbfhre1j38simn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parkinscan",
+            "certificate_hash": "6dc256b16843bceafcdf78e60ceebbd706c626e3"
+          }
+        },
+        {
+          "client_id": "462435448337-5t6truq5lv85c7s02jtl7d64ps1l73hn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2z5I1uQGx-p3Unvh7LaNHRBxzhNU5HLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462435448337-5t6truq5lv85c7s02jtl7d64ps1l73hn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "462435448337-4fgqgrti9edqv1aknie7knpe88rpg2um.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.parkinscan"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
