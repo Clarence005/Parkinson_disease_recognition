@@ -1,0 +1,26 @@
+This file does data augmentation to balance the class
+
+
+1) A "label" (class 0–3)
+
+2) Frame-wise "pose" keypoints (flattened x and y coordinates)
+
+3) Counts how many samples exist per class.
+
+For each class:
+
+4) If it already has at least 112 samples, nothing is added.
+
+5) If it has fewer than 112 samples, the script:
+
+6) Randomly selects existing samples from that class.
+
+7) Adds small Gaussian noise (~2%) to each pose keypoint.
+
+8) Saves the new (augmented) sample with a new filename (e.g., sample_3_aug5.json).
+
+9) Saves all original + augmented JSON files into preprocessing/augmented_skeletons.
+
+10) Creates an updated augment_label.pkl file, which stores:
+
+11) A list of all (sample_name, label) tuples — used by the data feeder during model training.

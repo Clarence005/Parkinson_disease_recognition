@@ -1,0 +1,6 @@
+This file splits the datas for training and testing
+
+# Step 1: Rebuild label.pkl from all JSONs
+# Step 2: Group by class
+# Step 3: Create train/val split per class
+# Step 4: Move files and save new labels
